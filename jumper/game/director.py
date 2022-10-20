@@ -42,5 +42,8 @@ class Director:
     def _do_update():
         None
 
+    def _do_outputs(self):
+        None
+
     def check_game_over(is_playing, jumper, word, guess):
         None
