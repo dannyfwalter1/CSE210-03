@@ -25,8 +25,16 @@ class Director:
         self._word = Word()
         self._terminal_service = TerminalService()
 
-    def start_game():
-        None
+    def start_game(self):
+        """Starts the game by running the main game loop.
+        
+        Args:
+            self (Director): an instance of Director.
+        """
+        while self._is_playing:
+            self._get_input()
+            self._do_update()
+            self._do_outputs()
     
     def _get_input():
         None
@@ -36,4 +44,3 @@ class Director:
 
     def check_game_over(is_playing, jumper, word, guess):
         None
-        
