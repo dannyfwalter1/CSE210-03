@@ -32,14 +32,14 @@ class Director:
             self (Director): an instance of Director.
         """
         while self._is_playing:
-            self._get_input()
-            self._do_update()
+            self._get_inputs()
+            self._do_updates()
             self._do_outputs()
     
-    def _get_input():
+    def _get_inputs():
         None
 
-    def _do_update():
+    def _do_updates():
         None
 
     def _do_outputs(self):
