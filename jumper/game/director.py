@@ -36,10 +36,10 @@ class Director:
             self._do_updates()
             self._do_outputs()
     
-    def _get_inputs():
+    def _get_inputs(self):
         None
 
-    def _do_updates():
+    def _do_updates(self):
         None
 
     def _do_outputs(self):
