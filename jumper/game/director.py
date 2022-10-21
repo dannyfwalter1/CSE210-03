@@ -56,8 +56,5 @@ class Director:
         #if player_guess = true, update puzzle word to show correct letters
         #if not, proceed to jumper's next phase
 
-    def _do_outputs(self):
-        None
-
     def check_game_over(is_playing, jumper, word, guess):
         None
