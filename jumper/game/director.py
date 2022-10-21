@@ -37,7 +37,13 @@ class Director:
             self._do_outputs()
     
     def _get_inputs(self):
-        None
+        """Display Jumper and the puzzle. Ask for player's guess.
+        Args:
+            self (Director): An instance of Director.
+        """
+        #display_puzzle
+        #self._terminal_service.display_jumper(jumper_phase)
+        guess = self._terminal_service.read_letter(f"\nGuess a letter [a-z]: ")
 
     def _do_updates(self):
         None
