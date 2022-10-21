@@ -38,6 +38,7 @@ class Director:
     
     def _get_inputs(self):
         """Display Jumper and the puzzle. Ask for player's guess.
+
         Args:
             self (Director): An instance of Director.
         """
@@ -46,7 +47,14 @@ class Director:
         guess = self._terminal_service.read_letter(f"\nGuess a letter [a-z]: ")
 
     def _do_updates(self):
-        None
+        """Check if player's guess matches the puzzle word. Update the puzzle and jumper
+        accordingly.
+
+        Args:
+            self (Director): An instance of Director.
+        """
+        #if player_guess = true, update puzzle word to show correct letters
+        #if not, proceed to jumper's next phase
 
     def _do_outputs(self):
         None
