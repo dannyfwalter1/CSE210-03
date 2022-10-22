@@ -35,3 +35,4 @@ root                    (project root folder)
 ---
 * Amon Brollo (amonbrollo@gmail.com)
 * Henry Nelson (Henryon@byui.edu)
+* Danny Walter (wal16025@byui.edu)
